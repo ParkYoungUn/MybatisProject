@@ -9,7 +9,7 @@ import com.springbook.biz.util.SqlSessionFactoryBean;
 
 //DAO(Data Access Object)
 public class BoardDAO {
-	// JDBC 관련 변수
+	// mybatis 관련 변수
 	private SqlSession mybatis;
 
 	public BoardDAO() {
